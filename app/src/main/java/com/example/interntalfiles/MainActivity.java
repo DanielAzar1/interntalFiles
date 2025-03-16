@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
         FileOutputStream fOS = openFileOutput(FILENAME,MODE_PRIVATE);
         OutputStreamWriter oSW = new OutputStreamWriter(fOS);
         BufferedWriter bW = new BufferedWriter(oSW);
-        bW.write("");
+        bW.write(" ");
         bW.close();
         oSW.close();
         fOS.close();
