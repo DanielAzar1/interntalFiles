@@ -147,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * @param menu The menu
+     * Function creates the menu
      * @return True if the menu is created
      */
     public boolean onCreateOptionsMenu(Menu menu)
@@ -157,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * @param item The item that is clicked
+     * Function opens the credits activity
      * @return True if the item is clicked
      */
     public boolean onOptionsItemSelected(@NonNull MenuItem item)
